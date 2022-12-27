@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Faça sua reserva</title>
+    </head>
+    <body>
+        <header>
+            <img
+                class="header__logo"
+                src="../../images/logoColorida.svg"
+                alt=""
+            />
+            <div class="header__container">
+                <div class="header__wrapper">
+                    <nav>
+                        <ul class="main-navigation">
+                            <li><a href="index.html">Página principal</a></li>
+                            <li><a href="sobre.html">Nosso hotel</a></li>
+                            <li><a href="acomodacoes.html">Acomodações</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h1>Faça sua reserva</h1>
+                <form action="" method="get">
+                    <h3>Formulário de reserva</h3>
+                    <fieldset>
+                        <legend>
+                            Para solicitar sua reserva, por favor preencha os
+                            campos abaixo:
+                        </legend>
+                        <h3>Seus dados</h3>
+                        <ul>
+                            <li>
+                                <label for="nome">Nome Completo</label>
+                                <input
+                                    type="text"
+                                    name="nome"
+                                    id="nome"
+                                    required
+                                />
+                            </li>
+                            <li>
+                                <label for="email">E-mail</label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    required
+                                />
+                            </li>
+                            <li>
+                                <label for="celular">Celular</label>
+                                <input
+                                    type="tel"
+                                    name="celular"
+                                    id="celular"
+                                    placeholder="(DDD) + número "
+                                    required
+                                />
+                            </li>
+                            <li>
+                                <label for="cidade">Cidade</label>
+                                <input
+                                    type="text"
+                                    name="cidade"
+                                    id="cidade"
+                                    required
+                                />
+                            </li>
+                            <li>
+                                <label for="estado">Estado</label>
+                                <input
+                                    type="text"
+                                    name="estado"
+                                    id="estado"
+                                    required
+                                />
+                            </li>
+
+                            <hr />
+                            <h3>Estadia</h3>
+                            <li>
+                                <label for="checkin">Data do Checkin</label>
+                                <input
+                                    type="date"
+                                    name="checkin"
+                                    id="checkin"
+                                    required
+                                />
+                            </li>
+                            <li>
+                                <label for="checkout">Data do Checkout</label>
+                                <input
+                                    type="date"
+                                    name="checkout"
+                                    id="checkout"
+                                    required
+                                />
+                            </li>
+                            <li>
+                                <label for="adultos"
+                                    >Quantidade de adultos</label
+                                >
+                                <input
+                                    type="number"
+                                    name="adultos"
+                                    id="adultos"
+                                    min="0"
+                                    max="4"
+                                    value="0"
+                                />
+                            </li>
+                            <li>
+                                <laberl for="Número de Crianças"
+                                    ><strong
+                                        >Número de
+                                        <abbr title="Menor que 12 anos"
+                                            >Crianças</abbr
+                                        ></strong
+                                    ></laberl
+                                >
+                                <input
+                                    type="number"
+                                    name="criancas"
+                                    id="criancas"
+                                    min="0"
+                                    max="4"
+                                    value="0"
+                                    required
+                                />
+                            </li>
+                            <button type="submit">Enviar</button>
+                        </ul>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <hr />
+        <footer>
+            <div class="footer__container">
+                <div class="footer__wrapper">
+                    <img
+                        class="footer__logo"
+                        src="../../images/logoBranca.svg"
+                        alt=""
+                    />
+                    <nav>
+                        <ul class="footer__navigation">
+                            <li><a href="index.html">Página principal</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="acomodacoes.html">Acomodações</a></li>
+                            <li><a href="reservas.html">Reservas</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                            <li>
+                                <a href="admin/formularioAdmin.html"
+                                    >Administração</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul class="footer__social">
+                            <li>
+                                <a href="#" data-social="facebook"
+                                    ><span class="sr-only">Facebook</span></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-social="instagram"
+                                    ><span class="sr-only">Instagram</span></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-social="whatsapp"
+                                    ><span class="sr-only">Whatsapp</span></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-social="email"
+                                    ><span class="sr-only">Email</span></a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <span class="copyright"
+                    >&copy Todos os direitos reservados - 2022 - Equipe 3</span
+                >
+            </div>
+        </footer>
+    </body>
+</html>
