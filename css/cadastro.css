@@ -95,7 +95,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem;
+
 
     background: linear-gradient(
             hwb(0 100% 0% / 0.815),
@@ -109,11 +109,11 @@
 }
 
 .formulario-cadastro{
+    width: 80%;
     display:grid;
     grid-template-columns: 1fr;
-    width: 90%;
     background-color: hsla(89, 38%, 15%, 0.895);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
@@ -126,10 +126,7 @@
     line-height: 1em;
     margin-bottom: 0.8em;
 }
-.input-container{
-    padding: 0.5em 0;
-    
-}
+
 
 .input-container input{
    
@@ -151,6 +148,9 @@
     font-weight: 700;
     transition:1s;
 
+}
+body{
+    width: 100%;
 }
 }
 
