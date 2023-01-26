@@ -1,0 +1,145 @@
+.formGeral{
+
+    display: flex;
+     border: solid violet;
+     padding: 4%;  /* posso tirar */
+
+}
+.formLogin{
+    
+     background-color: hsla(89, 38%, 15%, 0.895);
+     border-radius: 2rem;
+    padding: 3rem;
+    /* margin: 1rem; */
+    border: solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.mensagemAdm{
+    color: #c4972e;
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+}
+.inputLabs{
+    width: 50%;
+    border: solid black; 
+    
+}
+.inputFormLogin{
+    display: block;
+    width: 80%;
+    background-color: aliceblue;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin: auto auto 2rem auto;
+    
+    /* border: solid blue; */
+    
+}
+
+.botao{
+    width: 30%;
+    border: solid violet;
+    /* padding: 1rem; */
+}
+.botaoEntrar{
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: #c4972e;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    
+    text-align: center;
+    color: azure;
+    font-family: Montserrat, arial, sans-serif;
+}
+/* outra metade */
+
+
+.formCadastro {
+    border: solid blue;
+    width: 50%;
+ 
+}
+
+         /* MEDIA PARA CELULAR  */
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .formGeral{
+
+    display: flex;
+    flex-direction: column;
+     border: solid violet;
+
+}
+
+.formLogin{
+    display: flex;
+     background-color: hsla(89, 38%, 15%, 0.895);
+     border-radius: 2rem;
+    /* padding: 3rem; */
+    /* margin: 1rem; */
+    border: solid red;
+    width: 50%;
+}
+.mensagemAdm{
+    color: #c4972e;
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    /* margin-bottom: 2rem; */
+}
+.inputLabs{
+    width: 100%;
+    border: solid black;
+
+   
+
+    
+    
+}
+.inputFormLogin{
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    /* padding: 0.3rem; */
+    border-radius: 0.5rem;
+    /* margin: auto auto 2rem auto; */
+    
+    /* border: solid blue; */
+    
+}
+
+.botao{
+    width: 100%;
+    border: solid violet;
+}
+.botaoEntrar{
+    background-color: #c4972e;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: azure;
+    font-family: Montserrat, arial, sans-serif;
+}
+/* outra metade */
+
+
+.formCadastro {
+    border: solid blue;
+    width: 50%;
+ 
+}     
+    
+}
