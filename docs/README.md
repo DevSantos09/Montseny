@@ -8,6 +8,7 @@
 - CSS (`Cascade Style Sheet`)
 - Em breve mais tecnologias (`Building`)
 
+<div style="display: inline_block"><br>
 <img align="center" alt="HTML5" height="60" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg">
  <img align="center" alt="CSS3" height="60" width="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"> 
 <img align="center" alt="JS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
@@ -28,7 +29,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmar
 <img align="center" alt="Bash" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <img align="center" alt="npm" height="60" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
 <img align="center" alt="Markdown" height="60" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" />
-
+<div>
 ---
 Link do nosso Hotel : 
  [Montseny](https://franklinmachado.github.io/Montseny/)
